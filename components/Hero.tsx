@@ -1,10 +1,10 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
-import ShimmerButton from "./ui/ShimmerButton";
 import { FaLocationArrow } from "react-icons/fa";
 import { HeroHighlight, Highlight } from "./ui/hero-highlight";
-import { SparklesCore } from "./ui/sparkles";
+import { FlipWords } from "./ui/flip-words";
+import { HoverBorderGradient } from "./ui/hover-border-gradient";
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
           fill="white"
         />
         <Spotlight
-          className="top-40 left-full h-[80vh] w-[50vh]"
+          className="top-40 left-full h-[80vh] w-[50vh] rotate-90"
           fill="purple"
         />
         <Spotlight className="top-28 left-80 h-[80vh] w-[50vh]" fill="blue" />
@@ -39,18 +39,33 @@ const Hero = () => {
           />
 
           <HeroHighlight className="text-center mb-4 md:text-lg text-sm lg:text-2xl">
-            I&apos;m a Year 3 Computer Science student and aspiring{"\n"}
+            I&apos;m a Year 3 Computer Science student and aspiring{" "}
             <Highlight className="text-white">
-              <strong>software engineer</strong> from NUS, Singapore.
+              <FlipWords
+                words={[
+                  "software engineer",
+                  "web developer",
+                  "outdoor explorer",
+                  "puzzle enthusiast"
+                ]}
+                duration={4000}
+              />
             </Highlight>
+            <br />
+            from NUS, Singapore.
           </HeroHighlight>
 
           <a href="#projects">
-            <ShimmerButton
-              title="Show my Work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
+            <HoverBorderGradient
+              as="button"
+              containerClassName="rounded-full mt-4"
+              className="bg-black-100 text-white flex items-center space-x-2"
+            >
+              <span className="flex flex-row items-center px-1 justify-center font-medium text-white">
+                Show my Work
+                <FaLocationArrow className="ml-2" />
+              </span>
+            </HoverBorderGradient>
           </a>
         </div>
       </div>

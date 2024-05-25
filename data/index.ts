@@ -85,7 +85,7 @@ export const projects = [
     des: "An application that helps to streamline clinic workflow and bring accessible healthcare to underprivilged communities in Cambodia.",
     img: "/project-sabai.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://project-sabai.netlify.app",
+    link: "https://projectsabai.netlify.app",
     className: "rotate-3 scale-90 translate-y-3",
   },
   {
