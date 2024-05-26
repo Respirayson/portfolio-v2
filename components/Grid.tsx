@@ -6,9 +6,12 @@ import { TracingBeam } from "./ui/tracing-beam";
 const Grid = () => {
   return (
     <section id="about" className="px-2">
-      <h1 className="heading relative pb-20 pt-8">
-        A little more <span className="text-purple">about me</span>
+      <h1 className="heading relative pt-8 text-purple">
+        About Me
       </h1>
+      <p className="relative mt-2 text-slate-300 font-medium text-center pb-20 text-lg">
+        Just a quick glimpse.
+      </p>
       <TracingBeam>
         <BentoGrid>
           {gridItems.map(

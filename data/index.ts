@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Work Experience", link: "#experience" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "Metaverse Mayhem",
-    des: "A responsive full-stack web3 application allowing users to collect and trade NFT cards, and use them in a turn-based strategy game. ",
+    des: "A responsive full-stack web3 application allowing users to play, collect and trade NFT cards.",
     img: "/metaverse-mayhem.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://metaverse-mayhem.vercel.app",
@@ -82,7 +82,7 @@ export const projects = [
   {
     id: 2,
     title: "Biometrics System - Project Sabai",
-    des: "An application that helps to streamline clinic workflow and bring accessible healthcare to underprivilged communities in Cambodia.",
+    des: "Website to streamline clinic workflow and bring healthcare to underprivilged in Cambodia.",
     img: "/project-sabai.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://projectsabai.netlify.app",
@@ -91,7 +91,7 @@ export const projects = [
   {
     id: 3,
     title: "NUS Computing Club Website",
-    des: "A responsive website for NUS School of Computing students to access resources, events and announcements.",
+    des: "Website for NUS School of Computing students to access resources, events and announcements.",
     img: "/nuscomputing.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://nuscomputing.com",
@@ -100,7 +100,7 @@ export const projects = [
   {
     id: 4,
     title: "LifeHack 2024",
-    des: "Official website for LifeHack 2024, a hackathon that brings together students of all ages to ideate and prototype projects.",
+    des: "Official website for LifeHack 2024, a hackathon to solve real-world problems with technology.",
     img: "/lifehack-website.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://lifehack.nuscomputing.com",

@@ -4,7 +4,7 @@ import { Button } from "./ui/moving-border";
 
 const Experience = () => {
   return (
-    <div className="py-20" id="experience">
+    <div className="py-20 px-2 sm:px-40" id="experience">
       <h1 className="heading">
         My <span className="text-purple">Work Experience</span>
       </h1>
@@ -16,17 +16,17 @@ const Experience = () => {
             className="flex-1 text-white border-neutral-200 dark:border-slate-800 !cursor-pointer"
             duration={Math.floor(Math.random() * 10000) + 10000}
           >
-            <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
+            <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-8 gap-2">
               <img
                 src={thumbnail}
                 alt={thumbnail}
-                className="lg:w-32 md:w-20 w-16"
+                className="md:w-20 w-16"
               />
-              <div className="lg:ms-5">
-                <h1 className="text-start text-xl md:text-2xl font-bold">
+              <div className="lg:ms-1">
+                <h1 className="text-start text-md md:text-lg font-bold">
                   {title}
                 </h1>
-                <p className="text-start text-white-100 mt-3 font-semibold">
+                <p className="text-start text-white-100 mt-3 font-semibold text-sm">
                   {desc}
                 </p>
               </div>

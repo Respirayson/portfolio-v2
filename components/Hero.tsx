@@ -8,7 +8,7 @@ import { HoverBorderGradient } from "./ui/hover-border-gradient";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div id="hero" className="pb-20 pt-36">
       <div className="z-50">
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -50,8 +50,7 @@ const Hero = () => {
                 ]}
                 duration={4000}
               />
-            </Highlight>
-            <br />
+            </Highlight>{" "}
             from NUS, Singapore.
           </HeroHighlight>
 
