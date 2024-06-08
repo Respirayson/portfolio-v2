@@ -5,15 +5,15 @@ import { TracingBeam } from "./ui/tracing-beam";
 
 const Grid = () => {
   return (
-    <section id="about" className="px-2">
+    <section id="about" className="px-2 py-20">
       <h1 className="heading relative pt-8 text-purple">
         About Me
       </h1>
-      <p className="relative mt-2 text-slate-300 font-medium text-center pb-20 text-lg">
+      <p className="relative mt-2 text-slate-300 font-medium text-center pb-10 text-lg">
         Just a quick glimpse.
       </p>
       <TracingBeam>
-        <BentoGrid>
+        <BentoGrid className="scale-90">
           {gridItems.map(
             (
               {

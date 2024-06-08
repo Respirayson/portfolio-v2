@@ -9,7 +9,6 @@ import {
 } from "framer-motion";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
-import Image from "next/image";
 
 export const FloatingNav = ({
   navItems,
